@@ -1,6 +1,6 @@
 {% set name = "ib-insync" %}
 {% set nameUnderscore = "ib_insync" %}
-{% set version = "0.9.59" %}
+{% set version = "0.9.60" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ nameUnderscore[0] }}/{{ nameUnderscore }}/{{ nameUnderscore }}-{{ version }}.tar.gz
-  sha256: 5ef82d9e3e9f96d86276d98ce612eea1155a0cd68544f6bb7ad1bb68673b1cf5
+  sha256: 13e5634ccf1e6e92159439d0be7b55014d314c5a0361fd0899844ba7f1e2a5e4
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Python sync/async framework for Interactive Brokers API'
+  summary: Python sync/async framework for Interactive Brokers API
   description: |
     The goal of the IB-insync library is to make working with the Trader Workstation API from Interactive Brokers as easy as possible.
     The main features are
