@@ -5,7 +5,7 @@ Home: https://github.com/erdewit/ib_insync
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python sync/async framework for Interactive Brokers API
 
