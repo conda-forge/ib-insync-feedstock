@@ -5,9 +5,13 @@ Home: https://github.com/erdewit/ib_insync
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ib-insync-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python sync/async framework for Interactive Brokers API
+
+Development: https://github.com/erdewit/ib_insync
+
+Documentation: https://ib-insync.readthedocs.io/api.html
 
 The goal of the IB-insync library is to make working with the Trader Workstation API from Interactive Brokers as easy as possible.
 The main features are
