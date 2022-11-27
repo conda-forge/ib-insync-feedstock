@@ -1,6 +1,6 @@
 {% set name = "ib-insync" %}
 {% set nameUnderscore = "ib_insync" %}
-{% set version = "0.9.76" %}
+{% set version = "0.9.78" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ nameUnderscore[0] }}/{{ nameUnderscore }}/{{ nameUnderscore }}-{{ version }}.tar.gz
-  sha256: befa70750940ebade03aa4612ba7fc2d62269b71620347573ac0f62331505bdd
+  sha256: f1c62817dcb40f88281f2a775daeb44b3dc43f0b4bb9acc6a1989901afefce08
 
 build:
   noarch: python
